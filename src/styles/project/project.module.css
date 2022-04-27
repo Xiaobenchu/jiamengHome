@@ -1,0 +1,22 @@
+.box {
+    margin: 0.14rem auto;
+    width: 100%;
+    background-color: #f7f7f7;
+    position: relative;
+}
+.topBox {
+    margin-top: 0.05rem;
+    width: 100%;
+    background-color: #fff;
+}
+.lastTxt {
+    width: 12rem;
+    margin: 0.2rem auto;
+}
+.lastTxt p {
+    font-size: 0.12rem;
+    color: #999;
+}
+.lastTitle {
+    margin-bottom: 0.15rem;
+}

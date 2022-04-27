@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.closure {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.2rem;
+}
+.closure:hover {
+  cursor: pointer;
+}
+.box {
+  z-index: 9999;
+  top: 1.5rem;
+  left: 37%;
+  position: absolute;
+  width: 5.03rem;
+  height: 4.81rem;
+  border-radius: 0.18rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(217, 217, 217, 0.5);
+}
+.codeImg {
+  width: 2.53rem;
+  height: 2.53rem;
+  border-radius: 8px;
+}
+.box > p {
+  font-size: 0.2rem;
+  color: #333;
+}

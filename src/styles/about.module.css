@@ -1,0 +1,152 @@
+.img {
+  width: 100%;
+  height: 5rem;
+}
+.box {
+  width: 100%;
+  height: 9.87rem;
+}
+.contentBox {
+  margin-left: 3.4rem;
+  margin-right: 3.4rem;
+  border: 1px solid transparent;
+}
+.tipBox {
+  margin-top: 0.55rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tip {
+  font-size: 0.3rem;
+  font-weight: 600;
+  color: #333;
+}
+.tipLine {
+  width: 0.48rem;
+  height: 5px;
+  background-color: #fa2f21;
+}
+.text {
+  margin-top: 0.45rem;
+  font-size: 0.16rem;
+  line-height: 1.5;
+  color: #333;
+}
+.bg2 {
+  margin-top: 1rem;
+  width: 12.12rem;
+  height: 5rem;
+  margin-left: 3.62rem;
+  margin-right: 3.58rem;
+}
+.box2 {
+  width: 100%;
+  height: 7.42rem;
+  background-image: url('/images/about/about_3.jpg');
+  background-repeat: no-repeat;
+}
+.box3 {
+  margin-top: 0.88rem;
+  width: 100%;
+  height: 7.52rem;
+}
+.contentBox3 {
+  margin-left: 4.21rem;
+  margin-right: 4.21rem;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: row;
+}
+.leftBox {
+  width: 5.45rem;
+  height: 7.52rem;
+}
+.tipBox2 {
+  margin-top: 0.3rem;
+  display: flex;
+  flex-direction: column;
+}
+.bg3 {
+  margin-left: 0.4rem;
+  width: 5.13rem;
+  height: 7.52rem;
+}
+.textBox {
+  margin-top: 0.35rem;
+}
+.leftTitle {
+  font-size: 0.2rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333;
+}
+.leftTip {
+  margin-top: 0.1rem;
+  font-size: 0.16rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333;
+}
+.box4Text {
+  margin-top: 0.35rem;
+  text-align: center;
+  font-size: 0.18rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666;
+}
+.bottomBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 12rem;
+}
+.box4 {
+  width: 100%;
+  height: 11rem;
+}
+.imgBox {
+  margin-top: 0.25rem;
+  width: 3.85rem;
+}
+.imgMaxBox {
+  margin-top: 0.25rem;
+  margin-left: 0.18rem;
+  margin-right: 0.18rem;
+  width: 3.85rem;
+}
+.bottomImg {
+  width: 3.85rem;
+  height: 2.39rem;
+}
+.bottomTitle {
+  font-size: 0.2rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333;
+}
+.bottomText {
+  font-size: 0.14rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #333;
+}

@@ -1,0 +1,60 @@
+.box {
+    width: 12rem;
+    margin: 0.15rem auto 0;
+}
+.BrandNews {
+    width: 8.93rem;
+    height: 6.18rem;
+    padding-top: 0.15rem;
+    padding-left: 0.15rem;
+    padding-right: 0.2rem;
+    background-color: #fff;
+}
+.BrandNews>span {
+    font-size: 0.2rem;
+}
+.newsBox {
+    padding-bottom: 0.3rem;
+    border-bottom: 0.01rem solid #E8E8E8;
+}
+.title {
+    margin: 0.2rem 0 0.15rem;
+    display: block;
+    font-size: 0.2rem;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.brief {
+    display: block;
+    font-size: 0.16rem;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.thumb {
+    margin-top: 0.15rem;
+    margin-bottom: 0.1rem;
+    display: block;
+    width: 1.27rem;
+    height: 0.95rem;
+    border-radius: 0.05rem;
+}
+.authorBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.authorBox img {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    margin-right: 0.02rem;
+}
+.authorBox span {
+    font-size: 0.12rem;
+}

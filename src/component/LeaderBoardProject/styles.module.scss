@@ -1,0 +1,167 @@
+.container {
+  height: 2.78rem;
+  width: 12rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding-left: 1.07rem;
+  padding-right: 1.07rem;
+  border-bottom: 0.01rem solid #E8E8E8;
+  .leftBox {
+    display: flex;
+    flex-direction: row;
+    // border: 1px solid red;
+  .imgContainer {
+    width: 2.49rem;
+    height: 1.89rem;
+    position: relative;
+    border-radius: 0.04rem;
+    overflow: hidden;
+    .img {
+      width: 2.49rem;
+      height: 1.89rem;
+    }
+    .imgBox {
+      top: 0;
+      left: 0;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 0.76rem;
+      height: 0.32rem;
+      border-radius: 0.04rem 0 0.04rem 0;
+      .number {
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+      }
+    }
+  }
+  .projectContent {
+    margin-left: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    height: 1.89rem;
+    justify-content: space-between;
+    width: 5rem;
+    .nameBox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .name {
+        font-size: 0.2rem;
+        font-weight: 500;
+        color: #333333;
+      }
+      .starBox {
+        margin-left: 0.15rem;
+        width: 0.7rem;
+        height: 0.23rem;
+        display: flex;
+        align-items: center;
+        background-image: url('/images/leaderBrand/stars.png');
+        background-size: 0.7rem 0.23rem;
+        .star {
+          margin-left: 0.2rem;
+          font-size: 0.1rem;
+          font-weight: 400;
+          color: #EFFA02;
+        }
+      }
+    }
+    .projectLabel {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .labelBox {
+        margin-right: 0.15rem;
+        width: 0.85rem;
+        height: 0.2rem;
+        background: #FEE8D1;
+        border-radius: 0.02rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .label {
+          font-size: 0.12rem;
+          font-weight: 400;
+          color: #FA982F;
+        }
+      }
+    }
+    .brief {
+      // width: 420px;
+      // height: 20px;
+      font-size: 0.14rem;
+      font-weight: 400;
+      color: #999999;
+    }
+    .industryBox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .industry {
+        font-size: 0.14rem;
+        font-weight: 400;
+        color: #999999;
+      }
+      .industryInfo {
+        font-size: 0.14rem;
+        font-weight: 400;
+        color: #999999;
+      }
+    }
+    .componyBox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .compony {
+        font-size: 0.14rem;
+        font-weight: 400;
+        color: #999999;
+      }
+      .componyName {
+        font-size: 0.14rem;
+        font-weight: 400;
+        color: #999999;
+      }
+    }
+    .investBox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .invest {
+        font-size: 0.14rem;
+        font-weight: 400;
+        color: #999999;
+      }
+      .amount {
+        font-size: 0.22rem;
+        font-weight: 500;
+        color: #FA2B1E;
+      }
+    }
+  }
+}
+
+  .btn {
+    width: 1.06rem;
+    height: 0.4rem;
+    background: linear-gradient(90deg, #F52C16 0%, #EE4F02 100%);
+    border-radius: 0.04rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .title {
+      font-size: 0.14rem;
+      font-weight: 400;
+      color: #FFFFFF;
+    }
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+}

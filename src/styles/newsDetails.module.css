@@ -1,0 +1,44 @@
+.titleBox {
+  margin-top: 0.36rem;
+  margin-left: 4.2rem;
+  margin-right: 4.2rem;
+  border-bottom: 1px solid #d1d1d1;
+}
+.name {
+  font-size: 0.24rem;
+  font-weight: 600;
+  color: #333;
+}
+.timeText {
+  margin-top: 0.3rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.16rem;
+  color: #333;
+}
+
+.contentBox {
+  margin-top: 0.2rem;
+  margin-left: 4.2rem;
+  margin-right: 4.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contentBox > p {
+  text-indent: 2em;
+  font-size: 0.16rem;
+  color: #333333;
+  line-height: 0.24rem;
+}
+.contentBox > p > img {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  /* max-width: 9.75rem;
+  height: 2.36rem; */
+  height: 100%;
+  width: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.contentBox > p > strong {
+  text-align: left;
+}

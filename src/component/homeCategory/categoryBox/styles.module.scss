@@ -1,0 +1,65 @@
+.box {
+  width: 2.2rem;
+  min-height: 3.89rem;
+  background: #FFFFFF;
+  .container {
+    width: 2.2rem;
+    height: 0.43rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    .categoryBox{
+      width: 2rem;
+      height: 0.43rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .leftText{
+        margin-right: 0.12rem;
+        font-size: 0.14rem;
+        font-weight: 400;
+        color: #666666;
+      }
+      .text{
+        font-size: 0.14rem;
+        font-weight: 400;
+        color: #666666;
+      }
+      .rightText{
+        margin-left: 0.12rem;
+        font-size: 0.14rem;
+        font-weight: 400;
+        color: #666666;
+      }
+    }
+    .iconBox {
+      width: 0.2rem;
+      height: 0.43rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .toTopIcon{
+        color: #999999;
+        font-size: 0.12rem;
+      }
+    }
+  }
+  .containerBottom {
+    border-bottom: 0.01 solid black;
+  }
+  // .containerChecked {
+  //   border-left: 0.01 solid #FA2B1E;
+  //   border-bottom: 0.01 solid #FA2B1E;
+  //   border-top: 0.01 solid #FA2B1E;
+  //   border-right: 0.01 solid #FFFFFF;;
+  // }
+  .container :hover {
+    cursor: pointer;
+    border-left: 0.01 solid #FA2B1E;
+    border-bottom: 0.01 solid #FA2B1E;
+    border-top: 0.01 solid #FA2B1E;
+    border-right: 0.01 solid #FFFFFF;;
+  }
+
+  
+}

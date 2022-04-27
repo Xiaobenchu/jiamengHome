@@ -1,0 +1,43 @@
+.box {
+    width: 12rem;
+    margin: 0.15rem auto;
+}
+.BrandVideo {
+    width: 8.92rem;
+    height: 2.36rem;
+    background-color: #fff;
+}
+.BrandVideo>span {
+    display: block;
+    font-size: 0.2rem;
+    font-weight: 500;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin-left: 0.15rem;
+}
+.videoListBox {
+    margin: 0 0.15rem;
+    width: 8.92rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+.videoItemBox {
+    width: 2.96rem;
+    height: 2.1rem;
+    /* margin-right: 0.12rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.video {
+    width: 2.69rem;
+    height: 1.52rem;
+    border-radius: 0.08rem;
+}
+.videoItemBox span:nth-child(1) {
+    font-size: 0.16rem;
+}
+.videoItemBox span:nth-child(2) {
+    font-size: 0.12rem;
+}

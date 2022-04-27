@@ -1,0 +1,137 @@
+/* div {
+  padding: 0;
+  margin: 0;
+} */
+.bottomPoster {
+  /* padding: -5px; */
+  margin: -0.1rem 0;
+  width: 100%;
+  height: 2.28rem;
+}
+.navText {
+  font-size: 0.16rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.footerTip {
+  width: 100%;
+  height: 0.6rem;
+  background-color: #d61419;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerBox {
+  width: 100%;
+  height: 2.32rem;
+  background-color: #353535;
+  display: flex;
+  flex-direction: row;
+}
+.contentBox {
+  margin-left: 3.61rem;
+}
+.topBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 0.85rem;
+  width: 6.65rem;
+  border-bottom: 1px solid #555555;
+}
+.brandBox {
+  margin-left: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.brandBox1 {
+  margin-left: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 0.7rem;
+}
+.brandText {
+  color: #c8c8c8;
+  font-size: 0.14rem;
+  margin-right: 0.1rem;
+}
+.icon {
+  color: #c8c8c8;
+  font-size: 0.14rem;
+}
+.phone {
+  font-size: 0.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+.bottomBox {
+}
+.bottomJump {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.32rem;
+}
+.jump {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin-left: 0.36rem;
+  text-decoration: none;
+}
+.jumpLast {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin-left: 0.57rem;
+  text-decoration: none;
+}
+.word {
+  font-size: 0.14rem;
+  color: #c8c8c8;
+}
+
+.bottomText {
+  margin-left: 0.36rem;
+  margin-top: 0.21rem;
+  color: #bbb;
+  font-size: 0.12rem;
+}
+.bottomText:hover {
+  cursor: pointer;
+}
+
+.codeBox {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  height: 2.32rem;
+  align-items: center;
+}
+.codeContentBox {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.codeImg {
+  width: 1.53rem;
+  height: 1.53rem;
+  border-radius: 8px;
+}
+.codeText {
+  margin-top: 0.1rem;
+  color: #c8c8c8;
+  font-size: 0.14rem;
+}

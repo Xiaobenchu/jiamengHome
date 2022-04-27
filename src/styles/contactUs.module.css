@@ -1,0 +1,48 @@
+.bg {
+  height: 4.1rem;
+  width: 100%;
+}
+.contentBox {
+  height: 3.45rem;
+  width: 100%;
+}
+.centerBox {
+  height: 3.45rem;
+  margin-left: 5.5rem;
+  margin-right: 5.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+.text {
+  margin-top: 0.1rem;
+  font-size: 0.2rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+}
+.phone {
+  font-size: 0.16rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+}

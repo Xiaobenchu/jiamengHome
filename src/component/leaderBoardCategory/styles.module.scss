@@ -1,0 +1,131 @@
+.container {
+  margin-top: 0.1rem;
+  width: 12rem;
+  min-height: 0.76rem;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.15rem;
+  padding-left: 0.15rem;
+  .label {
+    font-size: 0.12rem;
+    font-weight: 400;
+    color: #333333;
+  }
+  .centerBoxHidden {
+    width: 10.56rem;
+    height: 0.23rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: wrap;
+    // border: 1px solid black;
+    .checkedBox {
+      margin-right: 0.15rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      height: 0.23rem;
+      padding-left: 0.15rem;
+      padding-right: 0.15rem;
+      background:#FA2B1E ;
+      .text {
+        font-size: 0.12rem;
+        font-weight: 400;
+        color: #ffffff;
+      }
+    }
+    .checkedBox :hover {
+      cursor: pointer;
+    }
+    .box {
+      margin-right: 0.15rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      height: 0.23rem;
+      padding-left: 0.15rem;
+      padding-right: 0.15rem;
+      .text {
+        font-size: 0.12rem;
+        font-weight: 400;
+        color: #333333;
+      }
+    }
+    .box :hover {
+      cursor: pointer;
+    }
+  }
+
+  .centerBox {
+    padding-bottom: 0.15rem;
+    width: 10.56rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding-bottom: 0.15rem;
+
+    // border: 1px solid black;
+    .checkedBox {
+      margin-top: 0.15rem;
+      margin-right: 0.15rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      height: 0.23rem;
+      padding-left: 0.15rem;
+      padding-right: 0.15rem;
+      background:#FA2B1E ;
+      .text {
+        font-size: 0.12rem;
+        font-weight: 400;
+        color: #ffffff;
+      }
+    }
+    .checkedBox :hover {
+      cursor: pointer;
+    }
+    .box {
+      margin-top: 0.15rem;
+      margin-right: 0.15rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      height: 0.23rem;
+      padding-left: 0.15rem;
+      padding-right: 0.15rem;
+      .text {
+        font-size: 0.12rem;
+        font-weight: 400;
+        color: #333333;
+      }
+    }
+    .box :hover {
+      cursor: pointer;
+    }
+  }
+
+ 
+  .allBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .all {
+      font-size: 0.12rem;
+      font-weight: 400;
+      color: #999999;
+    }
+    .icon {
+      font-size: 0.12rem;
+      color: #999999;
+    }
+  }
+  .allBox :hover {
+    cursor: pointer;
+  }
+}

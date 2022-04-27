@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #F7F7F7;
+
+  .contentBox {
+    width: 12rem;
+    // border: 1px solid red;
+    .newsBox {
+      width: 12rem;
+      padding-left: 0.25rem;
+      padding-bottom: 0.15rem;
+      // padding: 0.25rem;
+      background: #ffffff;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: start;
+    }
+    .btnContainer {
+      width: 12rem;
+      height: 0.78rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .btn {
+        width: 1.05rem;
+        height: 0.38rem;
+        background: #FFFFFF;
+        border-radius: 0.19rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .title {
+          font-size: 0.14rem;
+          font-weight: 400;
+          color: #FA2B1E;
+        }
+        .toTopIcon {
+          font-size: 0.14rem;
+          font-weight: 400;
+          color: #FA2B1E;
+        }
+      }
+      .btn :hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

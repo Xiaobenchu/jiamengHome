@@ -1,0 +1,46 @@
+.brandCategory {
+    margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    width: 5.88rem;
+    height: 6.51rem;
+    background-color: #fff;
+}
+.topCategoryBox {
+    width: 5.4rem;
+    height: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 0.01rem solid red; */
+}
+.topCategoryBox div{
+    width: 4.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.topCategoryBox div span {
+    margin-right: 0.18rem;
+    font-size: 0.14rem;
+    color: #999;
+}
+.topCategoryBox div span:nth-child(1) {
+    font-size: 0.18rem;
+    font-weight: 500;
+    color: #333;
+}
+.moreCategory {
+    font-size: 0.14rem;
+    color: #999;
+}
+.brandItemBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

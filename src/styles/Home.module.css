@@ -1,0 +1,107 @@
+.box {
+  /* width: 100%; */
+  background: #f7f7f7;
+}
+
+.main {
+  margin: 0 auto;
+  width: 12rem;
+  background-color: #F7F7F7;
+  /* border: 0.01rem solid red; */
+}
+.menuBox {
+  padding: 0.2rem 0;
+}
+.menuBox span:nth-child(1) {
+  font-size: 0.24rem;
+}
+.menuBox span:nth-child(2) {
+  margin-left: 0.2rem;
+  font-size: 0.14rem;
+  color: #999;
+}
+.newHotBox {
+  height: 2.38rem;
+  display: flex;
+  flex-direction: row;
+}
+.hotProjectBox {
+  position: relative;
+  padding: 0 0.25rem;
+  width: 100%;
+  height: 2.38rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  /* overflow: hidden; */
+  /* border: 0.01rem solid green; */
+}
+.hotIcon {
+  display: block;
+  width: 0.25rem;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  background-color: #ccc;
+}
+.hotIconLeft {
+  position: absolute;
+  top: 1.1rem;
+  left: 0;
+}
+.hotIconRight {
+  position: absolute;
+  top: 1.1rem;
+  right: 0;
+}
+/* 品牌大全 */
+.brandCategoryBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.moreBrand {
+  display: block;
+  margin-top: 0.36rem;
+  margin-bottom: 0.36rem;
+  width: 12rem;
+  text-align: center;
+  font-size: 0.14rem;
+  color: #FA2B1E;
+}
+.moreBrand span {
+  cursor: pointer;
+}
+/* 加盟头条 */
+.articleTitleBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.articleTitleBox a {
+  margin-right: 0.37rem;
+}
+.articleTitleBox span {
+  font-size: 0.24rem;
+  color: #999;
+  font-weight: 500;
+}
+.articleTitleBox .selectColor {
+  color:#FA2B1E;
+}
+.articleBox {
+  padding-left: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-top: 0.42rem;
+  width: 12rem;
+  /* height: 7.11rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #fff;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 12rem;
+  height: 1rem;
+  align-items: center;
+  .box {
+    margin-right: 0.5rem;
+    .title {
+      font-size: 0.24rem;
+      font-weight: 500;
+    }
+  }
+  .box :hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #F7F7F7;
+    padding-bottom: 0.9rem;
+    
+  }
+  .box {
+    margin-top: 0.15rem;
+    width: 12rem;
+    height: 0.63rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .box>span {
+      font-size: 0.12rem;
+      display: block;
+      margin-left: 0.36rem;
+      cursor: pointer;
+  }
+  .box .selectCost {
+      padding: 0.02rem 0.06rem;
+      color: #fff;
+      background-color: #FA2B1E;
+      border-radius: 0.02rem;
+  }
+  .img {
+    margin-top: 0.1rem;
+    width: 12rem;
+    height: 4rem;
+    border: 1px solid black;
+  }
+  .projectBox {
+    margin-top: 0.15rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .more {
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.16rem;
+    color: #FA2B1E;
+    cursor: pointer;
+  }
+  .noMore {
+    font-size: 0.16rem;
+  }
+  /* 加盟头条 */
+.articleTitleBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.articleTitleBox a {
+  margin-right: 0.37rem;
+}
+.articleTitleBox span {
+  font-size: 0.24rem;
+  color: #999;
+  font-weight: 500;
+}
+.articleTitleBox .selectColor {
+  color:#FA2B1E;
+}
+.articleBox {
+  padding-left: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-top: 0.42rem;
+  width: 12rem;
+  /* height: 7.11rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #fff;
+}
+.categoryNews {
+  width: 12rem;
+  margin: 0.15rem auto;
+}

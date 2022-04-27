@@ -1,0 +1,90 @@
+.box {
+  margin-top: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  width: 3.71rem;
+  margin-right: 0.28rem;
+  // border: 1px solid black;
+  .topBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .componyName {
+      font-size: 0.14rem;
+      font-weight: 400;
+      color: #333333;
+      .icon {
+        font-size: 0.14rem;
+        color: #F22C01;
+      }
+    }
+    .sexContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .sexBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 0.05rem;
+        .toTopIcon {
+          font-size: 0.15rem;
+        }
+        .sex {
+          margin-left: 0.05rem;
+          font-size: 0.14rem;
+          font-weight: 400;
+          color: #999999;
+        }
+      }
+    }
+  }
+  .input {
+    margin-top: 0.1rem;
+    width: 3.71rem;
+    height: 0.4rem;
+    background: #FFFFFF;
+    border-radius: 0.04rem;
+    border: 0.01rem solid #FA2B1E;
+    outline: none;
+  }
+  .inputBox {
+    margin-top: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 3.71rem;
+    .codeInput {
+      width: 2.42rem;
+      height: 0.4rem;
+      background: #FFFFFF;
+      border-radius: 0.04rem;
+      border: 0.01rem solid #FA2B1E;
+      outline: none;
+    }
+    .codeBtn {
+      width: 1.05rem;
+      height: 0.4rem;
+      background: #EEEEEE;
+      border-radius: 0.04rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .btnTitle {
+        font-size: 0.12rem;
+        font-weight: 400;
+        
+      }
+    }
+    .codeBtn :hover {
+      cursor: pointer;
+    }
+  }
+  .tips {
+    font-size: 0.12rem;
+    font-weight: 400;
+    color: #F22C01;
+  }
+}
